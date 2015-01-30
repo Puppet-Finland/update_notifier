@@ -1,0 +1,11 @@
+{
+  "name": "puppetfinland-update_notifier",
+  "version": "0.2.0",
+  "author": "Puppet-Finland team",
+  "license": "BSD license",
+  "summary": "Setup update-notifier on Debian and it's derivatives"
+  "source": "https://github.com/Puppet-Finland/update_notifier.git",
+  "project_page": "https://github.com/Puppet-Finland/update_notifier",
+  "dependencies": [
+  ]
+}
