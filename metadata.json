@@ -1,6 +1,6 @@
 {
   "name": "puppetfinland-update_notifier",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Puppet-Finland team",
   "license": "BSD license",
   "summary": "Setup update-notifier on Debian and it's derivatives",
