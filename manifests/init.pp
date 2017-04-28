@@ -7,8 +7,8 @@
 # == Parameters
 #
 # [*manage*]
-#   Manage update-notifier with Puppet. Valid values are 'yes' (default) and 
-#   'no'.
+#   Manage update-notifier with Puppet. Valid values are true (default) and
+#   false.
 #
 # == Authors
 #
@@ -22,10 +22,10 @@
 #
 class update_notifier
 (
-    $manage = 'yes'
+    Boolean $manage = true
 )
 {
-if $manage == 'yes' {
+if $manage {
 
     # On non-Debian platforms this class makes little sense and could cause 
     # puppet run failures.
