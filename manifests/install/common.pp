@@ -6,7 +6,7 @@
 #
 class update_notifier::install::common inherits update_notifier::params {
 
-    package { 'update_notifier-update-notifier-common':
+    package { 'update_notifier':
         ensure => installed,
         name   => $::update_notifier::params::common_package_name,
     }
